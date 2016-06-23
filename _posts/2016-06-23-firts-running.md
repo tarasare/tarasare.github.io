@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "First Running"
+title: "Sopiyan || First Running"
 tags:
 - Catatan
 - Jekyll
