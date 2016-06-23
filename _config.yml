@@ -1,0 +1,34 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: tarasare
+google_analytics: UA-65417465-1
+gems: [jekyll-paginate]
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: A Sopiyan
+
+description: "Husband, Father, Software Engineer"
+author:
+  name: Sopiyan
+  email: sundayjune66@gmail.com
+  github: tarasare
+  twitter: tarasare
+  pinterest: sundayjune66
+  linkedin: tarasare
+  bio: Husband, Father Candidates, Java Enthusiat
+  email_md5: 7cecfe7fafe98830d867fd6331f17dc7
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
