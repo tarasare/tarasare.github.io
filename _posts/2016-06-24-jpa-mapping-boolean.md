@@ -15,7 +15,7 @@ Kadang kala saya membutuhkan mapping boolean di project yang saya kerjakan, untu
 biasanya saya menggunakan `annotation` seperti berikut :
 
 ###JPA2 (with Hibernate 3.6+)
-~~~Java
+~~~ Java
     @Column(name = "enabled", nullable = false, columnDefinition = "TINYINT(1)")
     private boolean enabled;
 ~~~
